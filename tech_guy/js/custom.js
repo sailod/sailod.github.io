@@ -65,12 +65,9 @@
             console.log($(this).offset().top)
         });
         // Get the id of the current element
-        cur = cur[0];
+        cur = cur[cur.length - 1];
         var id = cur && cur.length ? "#" + cur[0].id : "index.html";
-        console.log("testtttttttt>>>>>", scrollItems)
-            // Set/remove active class
-
-        console.log("testtttttttt>>>>>", id)
+        // Set/remove active class
 
         menuItems
             .removeClass("active")
@@ -239,7 +236,7 @@ window.onload = function() {
     // INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+    css.innerHTML = ".typewrite > .wrap { border-left: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
 

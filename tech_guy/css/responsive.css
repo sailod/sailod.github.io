@@ -185,7 +185,7 @@
         margin-top: 7.5px;
     }
     .navbar-nav>li {
-        float: none;
+        float: none !important;
     }
     .navbar-nav>li>a {
         padding-top: 10px;

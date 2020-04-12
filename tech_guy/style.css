@@ -2,6 +2,7 @@
     File Name: style.css
 -------------------------------------------------------------------*/
 
+
 /*------------------------------------------------------------------
     [Table of contents]
 
@@ -375,7 +376,7 @@ a img.aligncenter {
     padding: 2px 15px 0 15px;
 }
 
-.header_style_01 .navbar-default .navbar-nav > li > a {
+.header_style_01 .navbar-default .navbar-nav>li>a {
     border-radius: 0;
     color: #ffffff !important;
     font-size: 15px;
@@ -385,18 +386,18 @@ a img.aligncenter {
     background-color: transparent;
 }
 
-.header_style_01 .navbar-default .navbar-nav > li a {
+.header_style_01 .navbar-default .navbar-nav>li a {
     background-color: transparent !important;
 }
 
-.header_style_01 .navbar-default .navbar-nav > li:hover a,
-.header_style_01 .navbar-default .navbar-nav > li:focus a {
+.header_style_01 .navbar-default .navbar-nav>li:hover a,
+.header_style_01 .navbar-default .navbar-nav>li:focus a {
     opacity: 0.7;
     filter: alpha(opacity=70);
     /* For IE8 and earlier */
 }
 
-.header_style_01 .navbar-right > li {
+.header_style_01 .navbar-right>li {
     margin-top: 2px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -405,7 +406,7 @@ a img.aligncenter {
     transition: all .3s ease-in-out;
 }
 
-.header_style_01 .navbar-right > li > a {
+.header_style_01 .navbar-right>li>a {
     padding-bottom: 10px;
     padding-top: 10px;
 }
@@ -902,14 +903,14 @@ li.social-links a {
     border: 1px solid #e1e1e1;
 }
 
-.nav-pills > li {
+.nav-pills>li {
     width: 50%;
     padding: 10px;
     float: left;
     margin: 0 !important;
 }
 
-.nav-pills > li > a {
+.nav-pills>li>a {
     margin: 0!important;
     text-align: center;
     background-color: #f4f4f4;
@@ -1128,6 +1129,7 @@ li.social-links a {
     right: 0;
     text-align: center;
     margin: -20px auto;
+    display: none;
 }
 
 .hoverbutton {
@@ -1432,7 +1434,7 @@ hr.invis1 {
     /*IE9 and below*/
 }
 
-.bootstrap-select > .dropdown-toggle {
+.bootstrap-select>.dropdown-toggle {
     width: 100%;
     padding-right: 25px;
 }
@@ -1499,12 +1501,12 @@ hr.invis1 {
 }
 
 .bootstrap-select.btn-group.disabled,
-.bootstrap-select.btn-group > .disabled {
+.bootstrap-select.btn-group>.disabled {
     cursor: not-allowed;
 }
 
 .bootstrap-select.btn-group.disabled:focus,
-.bootstrap-select.btn-group > .disabled:focus {
+.bootstrap-select.btn-group>.disabled:focus {
     outline: none !important;
 }
 
@@ -1535,7 +1537,7 @@ hr.invis1 {
     z-index: 1035;
 }
 
-.dropdown-menu > li > a {
+.dropdown-menu>li>a {
     background-color: transparent !important;
     color: #bcbcbc !important;
     font-size: 15px;
@@ -1632,7 +1634,7 @@ hr.invis1 {
     margin-right: 34px;
 }
 
-.bootstrap-select.show-menu-arrow.open > .dropdown-toggle {
+.bootstrap-select.show-menu-arrow.open>.dropdown-toggle {
     z-index: 1036;
 }
 
@@ -1682,8 +1684,8 @@ hr.invis1 {
     left: auto;
 }
 
-.bootstrap-select.show-menu-arrow.open > .dropdown-toggle:before,
-.bootstrap-select.show-menu-arrow.open > .dropdown-toggle:after {
+.bootstrap-select.show-menu-arrow.open>.dropdown-toggle:before,
+.bootstrap-select.show-menu-arrow.open>.dropdown-toggle:after {
     display: block;
 }
 
@@ -1717,7 +1719,7 @@ hr.invis1 {
     width: 100%;
 }
 
-.bs-searchbox + .bs-actionsbox {
+.bs-searchbox+.bs-actionsbox {
     padding: 0 8px 4px;
 }
 
@@ -1744,7 +1746,7 @@ select.mobile-device {
 
 /*# sourceMappingURL=bootstrap-select.css.map */
 
-.bootstrap-select > .btn {
+.bootstrap-select>.btn {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     font-size: 15px;
     height: 33px;
@@ -2031,7 +2033,7 @@ select.mobile-device {
     position: fixed;
     bottom: -100px;
     border-radius: 3px;
-    right: 50px;
+    left: 50px;
     text-align: center;
     font-size: 28px;
     color: #ffffff !important;
@@ -2088,9 +2090,8 @@ select.mobile-device {
     display: block
 }
 
-.preloader {
+.preloader {}
 
-}
 
 /*------------------------------------------------------------------
     BUTTONS
@@ -2107,7 +2108,7 @@ select.mobile-device {
 
 .nav-pills,
 .effect-1:after,
-.nav-pills > li > a,
+.nav-pills>li>a,
 .global-radius,
 .btn-brd {
     -webkit-border-radius: 100px;
