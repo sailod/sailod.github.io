@@ -2,6 +2,7 @@
     File Name: custom.css
 /****************************************** */
 
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
 
 /** ADD YOUR AWESOME CODES HERE **/
 
@@ -46,7 +47,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Arvo:400,400i,700');
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Alef Hebrew", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1,
@@ -1351,7 +1352,7 @@ nav.main-menu .navbar-toggle {
     padding: 20px 20px;
     text-transform: none;
     letter-spacing: 0;
-    font-weight: 500;
+    font-weight: bold;
     margin-right: 5px;
 }
 
@@ -1381,10 +1382,10 @@ nav.main-menu .navbar-toggle {
         display: none;
     }
     .navbar-header {
-        float: right;
+        float: left;
         position: absolute;
         top: 21px;
-        right: 20px;
+        left: 20px;
         background: transparent;
         width: 40px;
         height: 40px;

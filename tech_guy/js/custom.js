@@ -65,11 +65,12 @@
             console.log($(this).offset().top)
         });
         // Get the id of the current element
-        cur = cur[cur.length - 1];
+        cur = cur[0];
         var id = cur && cur.length ? "#" + cur[0].id : "index.html";
-        console.log("testtttttttt>>>>>", cur ? cur[0] : "")
+        console.log("testtttttttt>>>>>", scrollItems)
             // Set/remove active class
 
+        console.log("testtttttttt>>>>>", id)
 
         menuItems
             .removeClass("active")

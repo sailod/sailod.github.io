@@ -359,6 +359,9 @@
     .info-inner .icontop {
         margin-right: 0px !important;
     }
+    .info-inner:nth-child(n+3) {
+        display: none !important;
+    }
 }
 
 @media (max-width: 600px) {
