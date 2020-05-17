@@ -979,7 +979,7 @@ body.clinic_version .footer .widget-title h3 {
     font-size: 22px;
     font-weight: 600;
     border-right: solid #157fda 5px;
-    padding: 0 0 0 15px;
+    padding: 0 15px 0 0;
     margin-bottom: 24px;
 }
 
@@ -1028,7 +1028,7 @@ body.clinic_version .footer .widget-title h3 {
 
 .footer-info i {
     position: absolute;
-    left: 0;
+    right: 0;
     font-size: 25px;
     width: 30px;
     text-align: center;
@@ -1062,7 +1062,7 @@ body.clinic_version .footer .widget-title h3 {
 }
 
 .footer-info p {
-    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .newsletter-form input {
