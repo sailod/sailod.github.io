@@ -475,9 +475,9 @@ body.clinic_version .first-section h2 {
     position: absolute;
     bottom: 0px;
     z-index: 0;
-    border-bottom: solid transparent 65px;
-    border-right: solid #a0cff7 70px;
-    left: -70px;
+    border-bottom: solid transparent 105px;
+    border-right: solid #a0cff7 105px;
+    left: -105px;
 }
 
 .service-time.middle::after {
@@ -489,9 +489,9 @@ body.clinic_version .first-section h2 {
     position: absolute;
     bottom: 0px;
     z-index: 0;
-    border-bottom: solid transparent 65px;
-    border-left: solid #a0cff7 70px;
-    right: -70px;
+    border-bottom: solid transparent 105px;
+    border-left: solid #a0cff7 105px;
+    right: -105px;
 }
 
 .service-time.one {
@@ -576,7 +576,7 @@ hr.hr1 {
 
 .services {
     width: 100%;
-    background: url('../images/service-bg.png');
+    background-image: linear-gradient(to right, rgba(21, 127, 218, 0.7), rgba(57, 180, 155, 0.7)), url('../images/service-bg.jpg');
     padding: 75px 0;
     background-size: cover;
     background-attachment: fixed;
@@ -986,7 +986,7 @@ body.clinic_version .footer .widget-title h3 {
 .testimonial small,
 .testimonial .lead {
     background-color: transparent;
-    color: #aaa;
+    color: #484848;
     display: block;
     font-size: 15px;
     font-style: normal;
@@ -1057,7 +1057,7 @@ body.clinic_version .footer .widget-title h3 {
 }
 
 .social-links li {
-    float: right;
+    float: left;
     margin: 0;
 }
 
@@ -1097,7 +1097,7 @@ body.clinic_version .footer .widget-title h3 {
 }
 
 #testimonials {
-    background-image: url('../images/bg-testimonial.png');
+    background-image: linear-gradient(to right, rgba(21, 127, 218, 0.7), rgba(57, 180, 155, 0.7)), url('../images/service-bg2.jpg');
     background-position: bottom;
     background-attachment: fixed;
 }

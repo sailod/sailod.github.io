@@ -64,6 +64,8 @@
                 return this;
             console.log($(this).offset().top)
         });
+                    console.log("current ",cur)
+
         // Get the id of the current element
         cur = cur[cur.length - 1];
         var id = cur && cur.length ? "#" + cur[0].id : "index.html";
